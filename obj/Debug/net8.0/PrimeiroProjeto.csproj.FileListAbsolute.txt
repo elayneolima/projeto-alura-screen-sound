@@ -12,3 +12,4 @@ C:\Users\Betelgeuse\Documents\CURSO-CSHARP\PrimeiroProjeto\obj\Debug\net8.0\refi
 C:\Users\Betelgeuse\Documents\CURSO-CSHARP\PrimeiroProjeto\obj\Debug\net8.0\PrimeiroProjeto.pdb
 C:\Users\Betelgeuse\Documents\CURSO-CSHARP\PrimeiroProjeto\obj\Debug\net8.0\PrimeiroProjeto.genruntimeconfig.cache
 C:\Users\Betelgeuse\Documents\CURSO-CSHARP\PrimeiroProjeto\obj\Debug\net8.0\ref\PrimeiroProjeto.dll
+C:\Users\Betelgeuse\Documents\CURSO-CSHARP\PrimeiroProjeto\obj\Debug\net8.0\PrimeiroProjeto.sourcelink.json
