@@ -29,7 +29,7 @@ void ExibirOpcoesDoMenu()
     {
         case 1: RegistraBandas();
             break;
-        case 2: Console.WriteLine("Você digitou a opção 2");
+        case 2: MostrarBandasRegistradas();
             break;
         case 3: Console.WriteLine("Você digitou a opção 3");
             break;
@@ -43,6 +43,7 @@ void ExibirOpcoesDoMenu()
     }
 }
 
+
 void RegistraBandas()
 {
     Console.Clear();
@@ -55,6 +56,19 @@ void RegistraBandas()
     Console.Clear();
     ExibirOpcoesDoMenu(); 
 
+}
+
+void MostrarBandasRegistradas()
+{
+    for (int i = 0; i < bandas.Count; i++)
+    {
+        Console.WriteLine($"Banda:{bandas[i]}");
+    }
+
+    Console.WriteLine("Digite uma tecla para sair");
+    Console.ReadKey();
+    Console.Clear();
+    ExibirOpcoesDoMenu();
 }
 
 ExibirMensagemDeBoasVindas();
